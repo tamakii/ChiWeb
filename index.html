@@ -1,359 +1,316 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Chiweb : Chi - Bootstrap Resume">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>Chi - Bootstrap Resume</title>
 
-    <title>Chiweb</title>
-  </head>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
 
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/tamakii/ChiWeb">View on GitHub</a>
-
-          <h1 id="project_title">Chiweb</h1>
-          <h2 id="project_tagline">Chi - Bootstrap Resume</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/tamakii/ChiWeb/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/tamakii/ChiWeb/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>&lt;!DOCTYPE html&gt;
-
-  </p>
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
     
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
     
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
-    
-    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
 
-<pre><code>&lt;title&gt;Chi - Bootstrap Resume&lt;/title&gt;
-
-&lt;!-- Bootstrap core CSS --&gt;
-&lt;link href="assets/css/bootstrap.css" rel="stylesheet"&gt;
-
-&lt;!-- Custom styles for this template --&gt;
-&lt;link href="assets/css/main.css" rel="stylesheet"&gt;
-
-&lt;link rel="stylesheet" href="assets/css/font-awesome.min.css"&gt;
-
-&lt;link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'&gt;
-&lt;link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'&gt;
-
-&lt;script src="assets/js/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="assets/js/smoothscroll.js"&gt;&lt;/script&gt; 
-&lt;script src="assets/js/Chart.js"&gt;&lt;/script&gt;
-</code></pre>
-
-
-.carousel-inner&gt;.item&gt;img, 
-.carousel-inner&gt;.item&gt;a&gt;img {
+<style>
+.carousel-inner>.item>img, 
+.carousel-inner>.item>a>img {
     display: block;
     height: 20%;
     max-width: 100%;
     line-height: 0;
     width: 100%; 
 }
+</style>
+
+    
+
+  </head>
 
 
-<p></p>
 
-<p></p><div id="carousel-example-generic">
-  &lt;!-- Indicators --&gt;
-  <ol>
-    <li>
-    <li>
-    <li>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
-<p>&lt;!-- Wrapper for slides --&gt;
- </p>
-<div>
-                            <div>
-                                <img src="assets/img/843x403-01.jpg" alt="">
+  <!-- Wrapper for slides -->
+ <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive img-full" src="assets/img/843x403-01.jpg" alt="">
                             </div>
-                            <div>
-                                <img src="assets/img/843x403-02.jpg" alt="">
+                            <div class="item">
+                                <img class="img-responsive img-full" src="assets/img/843x403-02.jpg" alt="">
                             </div>
-                            <div>
-                                <img src="assets/img/843x403-03.jpg" alt="">
+                            <div class="item">
+                                <img class="img-responsive img-full" src="assets/img/843x403-03.jpg" alt="">
                             </div>
                         </div>
 
-<p>&lt;!-- Controls --&gt;
-  <a href="#carousel-example-generic">
-    
-    Previous
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
   </a>
-  <a href="#carousel-example-generic">
-    
-    Next
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
   </a>
-</p>
 </div>
 
-<pre><code>&lt;!-- jQuery --&gt;
-&lt;script src="js/jquery.js"&gt;&lt;/script&gt;
 
-&lt;!-- Bootstrap Core JavaScript --&gt;
-&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-&lt;!-- Script to Activate the Carousel --&gt;
-&lt;script&gt;
-$('.carousel').carousel({
-    interval: 5000 //changes the speed
-})
-&lt;/script&gt;&lt;/div&gt;
-</code></pre>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
-<p></p>
-
-<pre><code>&lt;div id="section-topbar"&gt;
-    &lt;div id="topbar-inner"&gt;
-        &lt;div class="container"&gt;
-            &lt;div class="row"&gt;
-                &lt;div class="dropdown"&gt;
-                    &lt;ul id="nav" class="nav"&gt;
-                        &lt;li class="menu-item"&gt;&lt;a class="smoothScroll" href="#about" title="About Chi"&gt;&lt;i class="icon-female"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                        &lt;li class="menu-item"&gt;&lt;a class="smoothScroll" href="#resume" title="Education"&gt;&lt;i class="icon-file"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                        &lt;li class="menu-item"&gt;&lt;a class="smoothScroll" href="#work" title="Works"&gt;&lt;i class="icon-folder-close-alt"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                        &lt;li class="menu-item"&gt;&lt;a class="smoothScroll" href="#contact" title="Contact Me"&gt;&lt;i class="icon-smile"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;&lt;!--/ uL#nav --&gt;
-                &lt;/div&gt;&lt;!-- /.dropdown --&gt;
-
-                &lt;div class="clear"&gt;&lt;/div&gt;
-            &lt;/div&gt;&lt;!--/.row --&gt;
-        &lt;/div&gt;&lt;!--/.container --&gt;
-
-        &lt;div class="clear"&gt;&lt;/div&gt;
-    &lt;/div&gt;&lt;!--/ #topbar-inner --&gt;
-&lt;/div&gt;&lt;!--/ #section-topbar --&gt;
-
-&lt;div id="headerwrap"&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row centered"&gt;
-            &lt;div class="col-lg-12"&gt;
-                &lt;h1&gt;Chi.C. Chung&lt;/h1&gt;
-                &lt;h3&gt;Graphic Designer | tamakii2@yahoo.com.tw&lt;/h3&gt;
-            &lt;/div&gt;&lt;!--/.col-lg-12 --&gt;
-        &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;/div&gt;&lt;!--/.container --&gt;
-&lt;/div&gt;&lt;!--/.#headerwrap --&gt;
-
-
-&lt;section id="about" name="about"&gt;&lt;/section&gt;
-&lt;div id="intro"&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-
-            &lt;div class="col-lg-2 col-lg-offset-1"&gt;
-                &lt;h5&gt;ABOUT&lt;/h5&gt;
-            &lt;/div&gt;
-            &lt;p align="left"&gt;
-            &lt;div class="col-lg-6"&gt;
-                &lt;p&gt;I'm graphic designer &amp; fashion designer with 6 years of professional experience. I'm interested in all kinds of visual design, but my major focus is on designing flat image, comercial design &amp; product design. I also have skills in other fields like branding, icon design or popular accessories design.&lt;/p&gt;
-            &lt;/div&gt;
-
-
-        &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;/div&gt;&lt;!--/.container --&gt;
-&lt;/div&gt;&lt;!--/ #intro --&gt;
-
-
-&lt;section id="resume" name="resume"&gt;&lt;/section&gt;
-&lt;!--EDUCATION DESCRIPTION --&gt;
-&lt;div class="container desc"&gt;
-    &lt;div class="row"&gt;
-
-            &lt;div class="col-lg-2 col-lg-offset-1"&gt;
-                &lt;h5&gt;EDUCATION&lt;/h5&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-6"&gt;
-                &lt;p&gt;&lt;t&gt;Bachelor of Visual Arts&lt;/t&gt;&lt;br/&gt;
-                    Chang Jung Christian University &lt;br/&gt;
-                    &lt;i&gt;4 Years Course&lt;/i&gt;
-                &lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;&lt;sm&gt;GRADUATING IN June 2009&lt;/sm&gt;&lt;br/&gt;
-
-                &lt;/p&gt;
-            &lt;/div&gt;
-
-            &lt;div class="col-lg-6 col-lg-offset-3"&gt;
-                &lt;p&gt;&lt;t&gt;Degree of Art Major&lt;/t&gt;&lt;br/&gt;
-                    National Keelung Vocational High shcool &lt;br/&gt;
-                    &lt;i&gt;3 Years Course&lt;/i&gt;
-                &lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;&lt;sm&gt;GRADUATING IN June 2005&lt;/sm&gt;&lt;/p&gt;
-            &lt;/div&gt;
-
-    &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;br&gt;
-    &lt;hr&gt;
-&lt;/div&gt;&lt;!--/.container --&gt;
-
-
-&lt;!--WORK DESCRIPTION --&gt;
-&lt;div class="container desc"&gt;
-    &lt;div class="row"&gt;
-
-            &lt;div class="col-lg-2 col-lg-offset-1"&gt;
-                &lt;h5&gt;WORK&lt;/h5&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-6"&gt;
-                &lt;p&gt;&lt;t&gt;Design department, Designers&lt;/t&gt;&lt;br/&gt;
-                    Hazel Global Business Integrated. &lt;br/&gt;
-                &lt;/p&gt;
-                &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/more&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;&lt;sm&gt;January 2016 - CURRENT&lt;/sm&gt;&lt;/p&gt;
-            &lt;/div&gt;
-
-            &lt;div class="col-lg-6 col-lg-offset-3"&gt;
-                &lt;p&gt;&lt;t&gt;Design department, Designers&lt;/t&gt;&lt;br/&gt;
-                    ZuanJie art printing co. &lt;br/&gt;
-                &lt;/p&gt;
-                &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/more&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;&lt;sm&gt;April 2015 - September 2015&lt;/sm&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-6 col-lg-offset-3"&gt;
-                &lt;p&gt;&lt;t&gt;Fashion designer, Manager&lt;/t&gt;&lt;br/&gt;
-                    TOTE Fashion International Limited. &lt;br/&gt;
-                &lt;/p&gt;
-                &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/more&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;&lt;sm&gt;April 2010 - April 2015&lt;/sm&gt;&lt;/p&gt;
-            &lt;/div&gt;
-    &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;br&gt;
-    &lt;hr&gt;
-&lt;/div&gt;&lt;!--/.container --&gt;
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script></div>
 
 
 
 
+ 
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About Chi"><i class="icon-female"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Education"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-folder-close-alt"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact Me"><i class="icon-smile"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Chi.C. Chung</h1>
+					<h3>Graphic Designer | tamakii2@yahoo.com.tw</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<p align="left">
+				<div class="col-lg-6">
+					<p>I'm graphic designer & fashion designer with 6 years of professional experience. I'm interested in all kinds of visual design, but my major focus is on designing flat image, comercial design & product design. I also have skills in other fields like branding, icon design or popular accessories design.</p>
+				</div>
+				
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
 
 
-&lt;section id="work" name="work"&gt;&lt;/section&gt;
-&lt;!--PORTFOLIO DESCRIPTION --&gt;
-&lt;div class="container desc"&gt;
-    &lt;div class="row"&gt;
-            &lt;div class="col-lg-2 col-lg-offset-1"&gt;
-                &lt;h5&gt;PORTFOLIO&lt;/h5&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-6"&gt;
-                &lt;p&gt;&lt;img class="img-responsive" src="assets/img/port01.jpg" alt=""&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                &lt;p&gt;Book Design&lt;/p&gt;
-            &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;br/&gt;&lt;br/&gt;
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
-            &lt;/p&gt;
-            &lt;/div&gt;
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Bachelor of Visual Arts</t><br/>
+						Chang Jung Christian University <br/>
+						<i>4 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN June 2009</sm><br/>
+				
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Degree of Art Major</t><br/>
+						National Keelung Vocational High shcool <br/>
+						<i>3 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN June 2005</sm></p>
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
 
-            &lt;div class="col-lg-6 col-lg-offset-3"&gt;
-                &lt;p&gt;&lt;img class="img-responsive" src="assets/img/port02.jpg" alt=""&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                    &lt;p&gt;Advertisement Design&lt;/p&gt;
-                &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;br/&gt;&lt;br/&gt;
-
-                &lt;/p&gt;
-            &lt;/div&gt;
-
-            &lt;div class="col-lg-6 col-lg-offset-3"&gt;
-                &lt;p&gt;&lt;img class="img-responsive" src="assets/img/port03.jpg" alt=""&gt;&lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-                    &lt;p&gt;Accessories Design&lt;/p&gt;
-                &lt;p&gt;&lt;more&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;br/&gt;&lt;br/&gt;
-
-                &lt;/p&gt;
-            &lt;/div&gt;
-
-    &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-&lt;/div&gt;&lt;!--/.container --&gt;
-
-
-
-&lt;section id="contact" name="contact"&gt;&lt;/section&gt;
-&lt;!--FOOTER DESCRIPTION --&gt;
-&lt;div id="footwrap"&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row"&gt;
-
-            &lt;div class="col-lg-2 col-lg-offset-1"&gt;
-                &lt;h5&gt;CONTACT&lt;/h5&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-6"&gt;
-                &lt;p&gt;&lt;t&gt;Email&lt;/t&gt;&lt;br/&gt;
-                    123456@yahoo.com.tw &lt;br/&gt;
-                &lt;/p&gt;
-                &lt;p&gt;&lt;t&gt;Adress&lt;/t&gt;&lt;br/&gt;
-                    Taiwan &lt;br/&gt;
-
-                &lt;/p&gt;
-                &lt;p&gt;&lt;t&gt;Phone&lt;/t&gt;&lt;br/&gt;
-                    +886 111-222-333 &lt;br/&gt;
-                &lt;/p&gt;
-            &lt;/div&gt;
-            &lt;div class="col-lg-3"&gt;
-
-            &lt;/div&gt;
-        &lt;/div&gt;&lt;!--/.row --&gt;
-    &lt;/div&gt;&lt;!--/.container --&gt;
-&lt;/div&gt;&lt;!--/ #footer --&gt;
-
-&lt;div id="c"&gt;
-    &lt;div class="container"&gt;
-        &lt;p&gt;Created by Chi-chi Tama&lt;/a&gt;&lt;/p&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Design department, Designers</t><br/>
+						Hazel Global Business Integrated. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>January 2016 - CURRENT</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Design department, Designers</t><br/>
+						ZuanJie art printing co. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>April 2015 - September 2015</sm></p>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Fashion designer, Manager</t><br/>
+						TOTE Fashion International Limited. <br/>
+					</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>April 2010 - April 2015</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
 
 
-&lt;!-- Bootstrap core JavaScript
-================================================== --&gt;
-&lt;!-- Placed at the end of the document so the pages load faster --&gt;
-&lt;script src="assets/js/bootstrap.js"&gt;&lt;/script&gt;
-</code></pre>
 
-<p>
-</p>
-      </section>
-    </div>
+	
+	
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Chiweb maintained by <a href="https://github.com/tamakii">tamakii</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PORTFOLIO</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+					<p>Book Design</p>
+				<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+			
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>Advertisement Design</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+					
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+						<p>Accessories Design</p>
+					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br/><br/>
+				
+					</p>
+				</div>
+		
+		</div><!--/.row -->
+		<br>
+		<br>
+	</div><!--/.container -->
+	
 
-    
 
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						123456@yahoo.com.tw <br/>
+					</p>
+					<p><t>Adress</t><br/>
+						Taiwan <br/>
+						
+					</p>
+					<p><t>Phone</t><br/>
+						+886 111-222-333 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<p>Created by Chi-chi Tama</a></p>
+		
+		</div>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
   </body>
 </html>
